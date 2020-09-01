@@ -1,0 +1,250 @@
+.header-top-navbar,
+.header-bottom-navbar {
+  background-color: #000;
+  width: 100vw;
+}
+
+.header-top-navbar {
+  height: 40px;
+
+  & ul {
+    text-align: right;
+    margin-right: 140px;
+
+    & li {
+      display: inline-block;
+      margin: 0 9px;
+      line-height: 40px;
+      font-size: 13px;
+
+      & a {
+        color: $cl_secondary;
+
+        &:hover {
+          color: $cl_primary;
+          text-decoration: underline;
+        }
+      }
+
+      & i {
+        font-size: 14px;
+        margin: 0 5px;
+        color: #009cff;
+      }
+    }
+  }
+}
+
+.header-bottom-navbar {
+  background: #000;
+  height: 50px;
+
+  & ul {
+    text-align: center;
+
+    & li {
+      display: inline-block;
+      font-size: 14.5px;
+      padding: 0 1.7%;
+      line-height: 50px;
+
+      & a {
+        color: $cl_primary;
+      }
+
+      &:hover {
+        background-color: $cl_primary;
+
+        & a {
+          color: #000;
+        }
+      }
+
+      &#logo-navbar:hover {
+        background-color: #000;
+      }
+
+      & img {
+        height: auto;
+        width: 87px;
+      }
+
+      & i {
+        font-size: 13px;
+        margin: 0 2px;
+        color: $cl_secondary;
+      }
+    }
+  }
+}
+
+.jumbotron {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+
+
+  & .jumbo-left-div {
+    height: 100%;
+    width: 32%;
+    margin-left: 28%;
+
+    & * {
+      color: $cl_primary;
+    }
+
+    & .jumbo-left-text {
+      padding: 55px 5px 50px;
+
+      & h3.upper-h3 {
+        font-size: 28px;
+      }
+
+      & h3.lower-h3 {
+        font-size: 22px;
+        padding: 20px 0 24px;
+      }
+
+      & ul {
+        margin-bottom: 20px;
+
+        & li {
+          list-style: none;
+          line-height: 35px;
+
+          & i {
+            color: $cl_secondary;
+            margin: 0 7px 0 5px;
+          }
+        }
+      }
+
+      & .jumbo-left-button {
+        height: 50px;
+        width: 208px;
+        background-color: $cl_secondary;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        padding-right: 0;
+        cursor: pointer;
+
+        & .button-text {
+          width: 77%;
+          font-size: 15px;
+          border-right: 1px solid $cl_primary;
+        }
+
+        & .button-download {
+          width: 20%;
+          text-align: center;
+        }
+
+        &:hover {
+          background-color: #555;
+
+          & * {
+            color: #aaa;
+          }
+
+          & .button-text {
+            border-right: 1px solid #aaa;
+          }
+        }
+      }
+    }
+  }
+
+  & .jumbo-right-div {
+    height: 435px;
+    width: 28%;
+    margin-left: 3.5%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: relative;
+    padding: 12px 20px;
+    color: $cl_primary;
+
+    & img {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+
+    & .jumbo-right-save40 {
+      width: 90px;
+      height: 33px;
+      background-color: #CC397F;
+      text-align: center;
+      padding-top: 6px;
+      margin-bottom: 15px;
+    }
+
+    & .jumbo-right-old-price {
+      color: #999;
+      font-size: 20px;
+      text-decoration: line-through;
+      font-family: 'Arimo', sans-serif;
+    }
+
+    & .jumbo-right-new-price {
+      font-size: 27px;
+      font-family: 'Arimo', sans-serif;
+      margin-bottom: 15px;
+    }
+
+    & .jumbo-right-download {
+      color: #999;
+      font-size: 15px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    & .jumbo-right-buynow {
+      background-color: #009cff;
+      width: 150px;
+      height: 35px;
+      text-align: center;
+      padding-top: 7px;
+      margin-bottom: 40px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #22aeff;
+      }
+    }
+
+    & .jumbo-right-customer {
+      width: 100%;
+      height: 107px;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #2c2c2c;
+      padding: 10px 10px 10px 15px;
+      cursor: pointer;
+
+      & h4 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      & p {
+        font-size: 15px;
+        margin-bottom: 5px;
+
+        & strong {
+          color: #CC397F;
+        }
+      }
+
+      & .jumbo-customer-learn a{
+        color: #009cff;
+        font-size: 15px;
+      }
+
+      &:hover .jumbo-customer-learn a{
+        text-decoration: underline;
+      }
+    }
+  }
+}

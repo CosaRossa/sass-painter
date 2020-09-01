@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top-navbar,
+.header-bottom-navbar {
+  background-color: #000;
+  width: 100vw;
+}
+
+.header-top-navbar {
+  height: 40px;
+}
+
+.header-top-navbar ul {
+  text-align: right;
+  margin-right: 140px;
+}
+
+.header-top-navbar ul li {
+  display: inline-block;
+  margin: 0 9px;
+  line-height: 40px;
+  font-size: 13px;
+}
+
+.header-top-navbar ul li a {
+  color: #666;
+}
+
+.header-top-navbar ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.header-top-navbar ul li i {
+  font-size: 14px;
+  margin: 0 5px;
+  color: #009cff;
+}
+
+.header-bottom-navbar {
+  background: #000;
+  height: 50px;
+}
+
+.header-bottom-navbar ul {
+  text-align: center;
+}
+
+.header-bottom-navbar ul li {
+  display: inline-block;
+  font-size: 14.5px;
+  padding: 0 1.7%;
+  line-height: 50px;
+}
+
+.header-bottom-navbar ul li a {
+  color: white;
+}
+
+.header-bottom-navbar ul li:hover {
+  background-color: white;
+}
+
+.header-bottom-navbar ul li:hover a {
+  color: #000;
+}
+
+.header-bottom-navbar ul li#logo-navbar:hover {
+  background-color: #000;
+}
+
+.header-bottom-navbar ul li img {
+  height: auto;
+  width: 87px;
+}
+
+.header-bottom-navbar ul li i {
+  font-size: 13px;
+  margin: 0 2px;
+  color: #666;
+}
+
+.jumbotron {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron .jumbo-left-div {
+  height: 100%;
+  width: 32%;
+  margin-left: 28%;
+}
+
+.jumbotron .jumbo-left-div * {
+  color: white;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text {
+  padding: 55px 5px 50px;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text h3.upper-h3 {
+  font-size: 28px;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text h3.lower-h3 {
+  font-size: 22px;
+  padding: 20px 0 24px;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text ul {
+  margin-bottom: 20px;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text ul li {
+  list-style: none;
+  line-height: 35px;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text ul li i {
+  color: #666;
+  margin: 0 7px 0 5px;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text .jumbo-left-button {
+  height: 50px;
+  width: 208px;
+  background-color: #666;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text .jumbo-left-button .button-text {
+  width: 77%;
+  font-size: 15px;
+  border-right: 1px solid white;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text .jumbo-left-button .button-download {
+  width: 20%;
+  text-align: center;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text .jumbo-left-button:hover {
+  background-color: #555;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text .jumbo-left-button:hover * {
+  color: #aaa;
+}
+
+.jumbotron .jumbo-left-div .jumbo-left-text .jumbo-left-button:hover .button-text {
+  border-right: 1px solid #aaa;
+}
+
+.jumbotron .jumbo-right-div {
+  height: 435px;
+  width: 28%;
+  margin-left: 3.5%;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: relative;
+  padding: 12px 20px;
+  color: white;
+}
+
+.jumbotron .jumbo-right-div img {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-save40 {
+  width: 90px;
+  height: 33px;
+  background-color: #CC397F;
+  text-align: center;
+  padding-top: 6px;
+  margin-bottom: 15px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-old-price {
+  color: #999;
+  font-size: 20px;
+  text-decoration: line-through;
+  font-family: "Arimo", sans-serif;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-new-price {
+  font-size: 27px;
+  font-family: "Arimo", sans-serif;
+  margin-bottom: 15px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-download {
+  color: #999;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-buynow {
+  background-color: #009cff;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  padding-top: 7px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-buynow:hover {
+  background-color: #22aeff;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-customer {
+  width: 100%;
+  height: 107px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #2c2c2c;
+  padding: 10px 10px 10px 15px;
+  cursor: pointer;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-customer h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-customer p {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-customer p strong {
+  color: #CC397F;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-customer .jumbo-customer-learn a {
+  color: #009cff;
+  font-size: 15px;
+}
+
+.jumbotron .jumbo-right-div .jumbo-right-customer:hover .jumbo-customer-learn a {
+  text-decoration: underline;
+}
+
